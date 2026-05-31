@@ -1,1 +1,14 @@
-{"name":"decentralized-identity-resolver","version":"0.1.0","description":"Resolve DIDs, ENS, and Stellar federated addresses","main":"dist/index.js","license":"MIT"}
+{
+  "name": "decentralized-identity-resolver",
+  "version": "0.1.0",
+  "description": "Resolve DIDs, ENS, and Stellar federated addresses",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "license": "MIT"
+}
